@@ -1,5 +1,7 @@
 # Build tool for Meta Jetson (RT)Linux 
 Tested on `Ubuntu-2404`
+## Prerequisites
+About 20GiB at minimum required for storage
 ## How to build
 ```
 ./download.sh
