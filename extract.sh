@@ -7,7 +7,7 @@ tar xf aarch64--glibc--stable-2022.08-1.tar.bz2
 cd Linux_for_Tegra
 cd source
 #tar xf kernel_src.tbz2
-tar xf ../../Meta-Jetson-Linux-0.1-rt.tar.gz -C kernel
+tar xf ../../v0.1-rt.tar.gz -C kernel
 cd kernel
 mv Meta-Jetson-Linux-0.1-rt kernel-jammy-src
 cd ..
