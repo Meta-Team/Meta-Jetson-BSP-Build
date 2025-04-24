@@ -7,3 +7,6 @@ wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v3.0/toolch
 wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Tegra_Linux_Sample-Root-Filesystem_r36.4.3_aarch64.tbz2
 # kernel src
 wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/sources/public_sources.tbz2
+# customized kernel
+# about 200MiB
+wget https://github.com/Meta-Team/Meta-Jetson-Linux/archive/refs/tags/v0.1-rt.tar.gz 
