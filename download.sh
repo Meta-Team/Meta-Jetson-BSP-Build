@@ -9,4 +9,4 @@ wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/releas
 wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/sources/public_sources.tbz2
 # customized kernel
 # about 200MiB
-wget https://github.com/Meta-Team/Meta-Jetson-Linux/archive/refs/tags/v0.1-rt.tar.gz 
+wget https://github.com/Meta-Team/Meta-Jetson-Linux/archive/refs/tags/v0.1.1-rt.tar.gz 
