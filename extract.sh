@@ -1,8 +1,9 @@
 #!/bin/sh
 set -x
 VER=0.1.1-rt
-tar xf Jetson_Linux_r36.4.3_aarch64.tbz2
-sudo tar xpf Tegra_Linux_Sample-Root-Filesystem_r36.4.3_aarch64.tbz2 -C Linux_for_Tegra/rootfs/
+JETSONLINUX_VERSION=r36.4.4
+tar xf Jetson_Linux_${JETSONLINUX_VERSION}_aarch64.tbz2
+sudo tar xpf Tegra_Linux_Sample-Root-Filesystem_${JETSONLINUX_VERSION}_aarch64.tbz2 -C Linux_for_Tegra/rootfs/
 tar xf public_sources.tbz2
 tar xf aarch64--glibc--stable-2022.08-1.tar.bz2 
 cd Linux_for_Tegra
