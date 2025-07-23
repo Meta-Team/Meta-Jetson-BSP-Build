@@ -1,5 +1,6 @@
 #!/bin/sh
 set -x
+# following https://docs.nvidia.com/jetson/archives/r36.4.4/DeveloperGuide/IN/QuickStart.html
 cd Linux_for_Tegra/
 sudo ./tools/l4t_flash_prerequisites.sh
 sudo ./apply_binaries.sh
